@@ -1,0 +1,32 @@
+.navbar-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-family: "Satoshi", sans-serif;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1% 2em;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 0em 2em;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: inherit;
+}
